@@ -3,19 +3,16 @@
 このフォルダは **OtoHUD 本体リポジトリとは別**に、GitHub 上でストア一覧を HTTPS 配信するための最小構成です。  
 `catalog.json` と `store/` 以下の画像を公開し、アプリを再ビルドせずに内容を更新できます。
 
-## 事前準備
+## リモートリポジトリ
 
-1. GitHub で **新しい空のリポジトリ**を作成する（例: `otohud-store-catalog`）。
-2. このディレクトリの **`catalog.json` 内の `USERNAME` / `REPO` を実際のユーザー名とリポジトリ名に置換**する。  
-   - 例: `https://yourname.github.io/otohud-store-catalog/store/...`
-3. リモートを追加してプッシュする。
+- **GitHub:** [animtools/OtoHUD-store-catalog](https://github.com/animtools/OtoHUD-store-catalog)
+- **クローン URL:** `https://github.com/animtools/OtoHUD-store-catalog.git`
+
+初回プッシュ例（未設定の場合）:
 
 ```bash
 cd store-catalog
-git init -b main
-git add .
-git commit -m "Initial store catalog"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git remote add origin https://github.com/animtools/OtoHUD-store-catalog.git
 git push -u origin main
 ```
 
@@ -25,16 +22,19 @@ git push -u origin main
 2. **Source**: Deploy from a branch。
 3. **Branch**: `main` / **Folder**: `/ (root)` を保存。
 
-数分後、次の URL で `catalog.json` が配信されます（例）。
+数分後、次の URL で配信されます。
 
-- `https://YOUR_USERNAME.github.io/YOUR_REPO/catalog.json`
+- カタログ: `https://animtools.github.io/OtoHUD-store-catalog/catalog.json`
+- 画像例: `https://animtools.github.io/OtoHUD-store-catalog/store/official-ambience-autumn-v1.svg`
+
+`catalog.json` 内の `thumbnailUrl` は上記 Pages ベースの絶対 URL に合わせてあります。
 
 ## OtoHUD アプリ側の設定
 
 `OtoHUD/.env` に次を設定（ビルド時に埋め込みます）。
 
 ```env
-VITE_STORE_CATALOG_URL=https://YOUR_USERNAME.github.io/YOUR_REPO/catalog.json
+VITE_STORE_CATALOG_URL=https://animtools.github.io/OtoHUD-store-catalog/catalog.json
 ```
 
 未設定の場合や取得失敗時は、同梱の `/data/catalog.json` にフォールバックします。
