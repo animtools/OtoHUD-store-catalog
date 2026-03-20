@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="275" viewBox="0 0 440 275" role="img" aria-label="">
+  <defs>
+    <linearGradient id="c" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="50%" stop-color="#1b0f3a"/>
+      <stop offset="100%" stop-color="#00d4aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="275" fill="url(#c)"/>
+  <path d="M48 180 L120 96 L192 180 L264 72 L336 180 L408 120" fill="none" stroke="#00ffc8" stroke-width="2" opacity="0.45"/>
+  <rect x="56" y="200" width="328" height="4" fill="#00ffc8" opacity="0.2"/>
+  <text x="24" y="248" fill="rgba(255,255,255,0.9)" font-family="system-ui,Segoe UI,sans-serif" font-size="18" font-weight="600">SFX</text>
+</svg>

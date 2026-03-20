@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-20T00:00:00Z",
+  "items": [
+    {
+      "id": "official-ambience-autumn-v1",
+      "displayName": "秋の環境音パック",
+      "description": "雨音と木々の気配を、打鍵音と相性よくブレンドした公式パック。",
+      "category": "ambience",
+      "tags": ["asmr", "季節限定", "環境音"],
+      "thumbnailUrl": "https://USERNAME.github.io/REPO/store/official-ambience-autumn-v1.svg",
+      "thumbnailEmoji": "🍂",
+      "price": 800,
+      "currency": "JPY",
+      "purchaseUrl": "https://booth.pm/your-official-id",
+      "is_new": true,
+      "is_premium_included": false,
+      "published_at": "2026-03-15T00:00:00Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "official-voice-system-v1",
+      "displayName": "公式システムボイス",
+      "description": "保存・コピー・クリックのフィードバックを、軽快にまとめた短尺セット。",
+      "category": "voice",
+      "tags": ["voice", "システム", "公式"],
+      "thumbnailUrl": "https://USERNAME.github.io/REPO/store/official-voice-system-v1.svg",
+      "thumbnailEmoji": "🎙️",
+      "price": 1200,
+      "currency": "JPY",
+      "purchaseUrl": "https://booth.pm/your-official-id",
+      "is_new": false,
+      "is_premium_included": true,
+      "published_at": "2026-02-10T00:00:00Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "official-sfx-cyber-v1",
+      "displayName": "Cyber UI 効果音",
+      "description": "SF / サイバー系テーマに最適化したUI効果音パック。",
+      "category": "sfx",
+      "tags": ["sfx", "cyber", "UI"],
+      "thumbnailUrl": "https://USERNAME.github.io/REPO/store/official-sfx-cyber-v1.svg",
+      "thumbnailEmoji": "🟦",
+      "price": 0,
+      "currency": "JPY",
+      "purchaseUrl": "https://booth.pm/your-official-id",
+      "is_new": true,
+      "is_premium_included": false,
+      "published_at": "2026-03-18T00:00:00Z",
+      "version": "1.0.0"
+    }
+  ]
+}
