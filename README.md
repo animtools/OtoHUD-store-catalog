@@ -37,7 +37,11 @@ git push -u origin main
 VITE_STORE_CATALOG_URL=https://animtools.github.io/OtoHUD-store-catalog/catalog.json
 ```
 
-未設定の場合や取得失敗時は、同梱の `/data/catalog.json` にフォールバックします。
+`VITE_STORE_CATALOG_URL` を**未設定**のビルドでは、同梱の `catalog.json` は読みません（ストアタブは「ストア準備中」の案内のみ）。リモート URL を設定したうえで取得に失敗した場合は、「カタログを取得できませんでした」の案内になります。
+
+## 商品の追加・編集
+
+手順・`catalog.json` のフィールド一覧は **[ADD-PRODUCTS.md](./ADD-PRODUCTS.md)** を参照してください。
 
 ## 更新の流れ
 
