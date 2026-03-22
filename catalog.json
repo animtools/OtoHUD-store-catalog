@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-20T09:39:19Z",
+  "updated_at": "2026-03-22T03:30:11Z",
   "items": [
     {
       "id": "com.otohud.retrok_mekakey",
@@ -15,6 +15,21 @@
       "purchaseUrl": "https://shinosuke.booth.pm/items/8105897",
       "is_premium_included": false,
       "published_at": "2026-03-20T09:39:19Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "com.otohud.arcade_fighter_spirit",
+      "displayName": "熱血アーケード格闘（OtoHUD用）",
+      "description": "アーケード格闘をイメージした短いインパクトと確定感のあるSE。マウス・主要キー・ショートカット・オーバーレイのシステムイベント向け。OtoHUD公式。",
+      "category": "sfx",
+      "tags": ["se", "otohud", "公式", "アーケード", "格闘", "効果音", "マウス", "キーボード", "ショートカット"],
+      "thumbnailUrl": "https://animtools.github.io/OtoHUD-store-catalog/store/com.otohud.arcade_fighter_spirit-cover.png",
+      "thumbnailEmoji": "🕹️",
+      "price": 550,
+      "currency": "JPY",
+      "purchaseUrl": "https://shinosuke.booth.pm/items/8115119",
+      "is_premium_included": false,
+      "published_at": "2026-03-22T03:30:11Z",
       "version": "1.0.0"
     }
   ]
